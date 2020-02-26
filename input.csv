@@ -1,0 +1,5 @@
+imag1,image2
+sample/SampleJPGImage_100kbmb.jpg,sample/SampleJPGImage_100kbmb.png
+sample/SampleJPGImage_100kbmb.jpg,sample/SampleJPGImage_50kbmb.jpg
+sample/SampleJPGImage_100kbmb.png,sample/SampleJPGImage_50kbmb.jpg
+sample/example_image_comparison_unmodified.jpg,sample/example_image_comparison_modified.jpg
