@@ -1,5 +1,5 @@
 # image_compare
-This script is used to find similarity between images. It is written in Pthon3.7 and  used OpenCV to compare color histogram of the images and generate score.
+This script is used to find similarity between images. It is written in Pthon3.7 and uses OpenCV to compare color histogram of the images and generate score. It has used cv2.HISTCMP_CHISQR method which applies the Chi-Squared distance to the histograms.
 
 # Setup
 
@@ -20,7 +20,7 @@ SampleJPGImage_100kbmb.jpg,SampleJPGImage_100kbmb.png
 example_image_comparison_unmodified.jpg,example_image_comparison_modified.jpg
 ```
 
-Run the command as foollows:
+Pull the latest code from master and run the command as foollows:
 
 ```python3 image_compare.py -i input.csv -o output.csv```
 
