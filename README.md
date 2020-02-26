@@ -11,6 +11,23 @@ Once virtualenv is setup, clone this repo and install the required Python packag
 
 # Usage
 
-This script takes two arguments `input csv file` and `output csv file`. You can mention the absoulte path of the files if it is not in the same location as that of the script.
+This script takes two arguments `input csv file` and `output csv file`. You can mention the absoulte path of the files if it is not in the same location as that of the script. T
+
+he input file must be in the csv format and contain files to be compared in below format. The image file should have absolute path.
+
+```imag1,image2
+SampleJPGImage_100kbmb.jpg,SampleJPGImage_100kbmb.png
+example_image_comparison_unmodified.jpg,example_image_comparison_modified.jpg
+```
+
+Run the command as foollows:
 
 ```python3 image_compare.py -i input.csv -o output.csv```
+
+This will give output in the below format. Score format is limited to 2 decimal numbers whereas elapsed time is limited to 3 decimal numbers. These can modified in the scipt.
+
+```image1,image2,similar,elapsed
+SampleJPGImage_100kbmb.jpg,SampleJPGImage_100kbmb.png,0.00,0.026
+example_image_comparison_unmodified.jpg,example_image_comparison_modified.jpg,0.01,0.032
+```
+
