@@ -11,9 +11,7 @@ Once virtualenv is setup, clone this repo and install the required Python packag
 
 # Usage
 
-This script takes two arguments `input csv file` and `output csv file`. You can mention the absoulte path of the files if it is not in the same location as that of the script. T
-
-he input file must be in the csv format and contain files to be compared in below format. The image file should have absolute path.
+This script takes two arguments `input csv file` and `output csv file`. You can mention the absoulte path of the files if it is not in the same location as that of the script. The input file must be in the csv format and contain files to be compared in below format. The image file should have absolute path.
 
 ```imag1,image2
 SampleJPGImage_100kbmb.jpg,SampleJPGImage_100kbmb.png
